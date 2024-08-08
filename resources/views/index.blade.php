@@ -1,0 +1,10 @@
+@extends('layout.app')
+@section('content') 
+  @include('includes.service')
+  @include('includes.about')
+  @include('includes.we_have')
+  @include('includes.why')
+  @include('includes.team')
+  @include('includes.contact')
+  @include('includes.client')
+@endsection
