@@ -42,7 +42,7 @@
             </button>
           </div>
           <div class="overlay-content">
-            <a class="active" href="{{route('index')}}"> Home </a>
+            <a class="" href="{{route('index')}}"> Home </a>
             <a class="" href="{{route('about')}}"> About</a>
             <a class="" href="{{route('why')}}"> Why Us </a>
             <a class="" href="{{route('team')}}"> Our Team</a>
@@ -62,7 +62,7 @@
             </span>
             <i class="fa fa-user" aria-hidden="true"></i>
           </a>
-          <form class="form-inline" method="{{route('search')}}" method="POST">
+          <form class="form-inline" action="{{route('search')}}" method="POST">
             @csrf
             <input name="search" >
             <button class="btn  nav_search-btn" type="submit">
