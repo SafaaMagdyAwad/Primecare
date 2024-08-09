@@ -56,7 +56,7 @@
           </span>
         </a>
         <div class="user_option">
-          <a href="{{route('login')}}">
+          <a href="{{route('loginForm')}}">
             <span>
               Login
             </span>
